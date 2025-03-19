@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>ru</string>
+	<key>CFBundleDisplayName</key>
+	<string>Ямм Пицца</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.7.6</string>
+	<key>CFBundleVersion</key>
+	<string>0</string>
+	<key>Fabric</key>
+	<dict>
+		<key>APIKey</key>
+		<string>4737d98241cfa058ebe2d946c8b3896da062622b</string>
+		<key>Kits</key>
+		<array>
+			<dict>
+				<key>KitInfo</key>
+				<dict/>
+				<key>KitName</key>
+				<string>Crashlytics</string>
+			</dict>
+		</array>
+	</dict>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>googlechromes</string>
+		<string>comgooglemaps</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Разрешите Ямм Пицца доступ к камере</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Разрешите Ямм Пицца доступ к контактам</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Разрешите Ямм Пицца доступ к вашему местоположению</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Разрешите Ямм Пицца доступ к микрофону</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Разрешите Ямм Пицца доступ к Фото</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>NeutraText Bold YP.otf</string>
+		<string>YP ExtraBold.otf</string>
+		<string>HelveticaNeueCyr-Roman.otf</string>
+		<string>HelveticaNeueCyr-Medium.otf</string>
+		<string>HelveticaNeueCyr-Italic.otf</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchView</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+</dict>
+</plist>

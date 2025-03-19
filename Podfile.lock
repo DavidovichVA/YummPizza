@@ -1,0 +1,49 @@
+PODS:
+  - ActionSheetPicker (1.6.2)
+  - AKMaskField (2.0.3)
+  - Alamofire (4.5.1)
+  - Crashlytics (3.8.6):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.13)
+  - GoogleMaps (2.4.0):
+    - GoogleMaps/Maps (= 2.4.0)
+  - GoogleMaps/Base (2.4.0)
+  - GoogleMaps/Maps (2.4.0):
+    - GoogleMaps/Base
+  - Kingfisher (4.0.1)
+  - MBProgressHUD (1.0.0)
+  - Realm (2.10.1):
+    - Realm/Headers (= 2.10.1)
+  - Realm/Headers (2.10.1)
+  - RealmSwift (2.10.1):
+    - Realm (= 2.10.1)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - ActionSheetPicker
+  - AKMaskField
+  - Alamofire
+  - Crashlytics
+  - Fabric
+  - GoogleMaps
+  - Kingfisher
+  - MBProgressHUD
+  - RealmSwift
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  ActionSheetPicker: cc5255a36aabaf34245b97a478059d26bac8cd84
+  AKMaskField: b6d147524813e62cd3f15475fa2200ce7a3d2620
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  Crashlytics: 95d05f4e4c19a771250c4bd9ce344d996de32bbf
+  Fabric: 2fb5676bc811af011a04513451f463dac6803206
+  GoogleMaps: 8436ab5d1c25e36915b2f7416d0c8e3fa2e76c61
+  Kingfisher: b771785e9461ed4b8686d40e7145f9e58100cb24
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  Realm: fc7a317a5c2c9ba91f5f235ede4e2ea76e9eba0c
+  RealmSwift: 505ed6c15942a2e76f5cfa78a8667cfa997ee75b
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 4d5071acf1fa4c9dd5cbe795967548acb05c92c8
+
+COCOAPODS: 1.3.1

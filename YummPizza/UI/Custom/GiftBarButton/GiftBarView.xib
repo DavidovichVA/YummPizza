@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NeutraText Bold YP.otf">
+            <string>YPNeutra-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="QCE-2E-lpE" customClass="GiftBarView" customModule="YummPizza" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="44" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="giftBarIcon" translatesAutoresizingMaskIntoConstraints="NO" id="snh-DG-X9w">
+                    <rect key="frame" x="6" y="9" width="22" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="snh-DG-X9w" secondAttribute="height" multiplier="1:1" id="4af-Tl-3SY"/>
+                        <constraint firstAttribute="width" constant="22.329999999999998" id="bdh-ti-BAS"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iia-VQ-VuW">
+                    <rect key="frame" x="21.5" y="6" width="14" height="14"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NAN-uA-clt">
+                            <rect key="frame" x="4" y="1.5" width="6" height="11"/>
+                            <fontDescription key="fontDescription" name="YPNeutra-Bold" family="YP Neutra" pointSize="9.7100000381469727"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.027450980390000001" blue="0.090196078430000007" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="NAN-uA-clt" firstAttribute="leading" secondItem="Iia-VQ-VuW" secondAttribute="leading" constant="4" id="JDX-hs-Jql"/>
+                        <constraint firstAttribute="height" constant="14" id="aQW-xe-UCb"/>
+                        <constraint firstItem="NAN-uA-clt" firstAttribute="centerY" secondItem="Iia-VQ-VuW" secondAttribute="centerY" id="gBg-Jz-hez"/>
+                        <constraint firstItem="NAN-uA-clt" firstAttribute="centerX" secondItem="Iia-VQ-VuW" secondAttribute="centerX" id="hw7-SE-06f"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" secondItem="Iia-VQ-VuW" secondAttribute="height" multiplier="1:1" id="p99-Ve-Opa"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="7"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="snh-DG-X9w" firstAttribute="leading" secondItem="QCE-2E-lpE" secondAttribute="leading" constant="6" id="56u-XX-3OV"/>
+                <constraint firstItem="Iia-VQ-VuW" firstAttribute="centerX" secondItem="snh-DG-X9w" secondAttribute="trailing" id="Kj2-ha-ZFm"/>
+                <constraint firstItem="snh-DG-X9w" firstAttribute="centerY" secondItem="QCE-2E-lpE" secondAttribute="centerY" id="S5l-2A-AGI"/>
+                <constraint firstItem="Iia-VQ-VuW" firstAttribute="centerY" secondItem="snh-DG-X9w" secondAttribute="top" constant="4" id="oA6-A1-xW2"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="numberLabel" destination="NAN-uA-clt" id="gy3-UA-1i2"/>
+                <outlet property="numberView" destination="Iia-VQ-VuW" id="wdN-aW-c4F"/>
+            </connections>
+            <point key="canvasLocation" x="112" y="-252"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="giftBarIcon" width="22" height="22"/>
+    </resources>
+</document>
